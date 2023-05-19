@@ -1,0 +1,48 @@
+.contact .icon div{
+    width: 63%;
+}
+
+.contact p{
+    color: #777;
+    font-size: 16px;
+}
+
+
+.contact .social-icon{
+    width: 60%;
+}
+.contact i{
+    color: #999;
+}
+.contact .social-icon i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+
+.contact .social-icon i:hover{
+    background-color: red;
+    color: white;
+}
+
+
+.contact input{
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border: solid 2px #d7d5d5;
+}
+
+.contact textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+    font-size: 18px;
+    border: solid 2px #d7d5d5;
+}

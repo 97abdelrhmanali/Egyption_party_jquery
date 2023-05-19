@@ -1,0 +1,14 @@
+.details p{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+    margin: 0;
+}
+
+.details h3{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}

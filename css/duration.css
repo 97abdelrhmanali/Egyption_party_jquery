@@ -1,0 +1,28 @@
+.duration{
+    background-image: url(../invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;   
+}
+
+.duration .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+
+
+.duration .overlay .time{
+    padding: 50px;
+    
+}
+
+.duration .overlay .time h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

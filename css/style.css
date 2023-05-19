@@ -1,0 +1,72 @@
+
+/* $(".home .overlay").animate({left : "0%"},500); */
+/* $(".home .overlay").animate({left : width},500); */
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+.home{
+    background-image: url(../events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 660px;
+}
+
+.home .overlay{
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    left: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0  !important;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay .detail{
+    transform: translateX(-20px);
+}
+
+.home .navSkema{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 380px;
+    height: 100vh;
+}
+
+.home .navSkema .navdetails{
+    background-color: #414658;
+    overflow: hidden;
+    height: 100%;
+    width: 65%;
+}
+
+
+.home .navSkema  ul li{
+    margin: 40px 5px;
+}
+.home .navSkema  ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.home .navSkema   i{
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.home .navSkema  ul li a:hover , .home .navSkema   i:hover {
+    color: brown !important;
+}
+
+
